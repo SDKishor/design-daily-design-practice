@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Settings</title>
 </head>
 <body>
-    
+    <main>
+        <h1>Settings</h1>
+        <div class="toggle_container">
+            <div class="toggle_element active">
+                <h3>Dark mode</h3>
+                <button ></button>
+            </div>
+            <div class="toggle_element">
+                <h3>Desktop notifications</h3>
+                <button></button>
+            </div>
+            <div class="toggle_element">
+                <h3>Focused inbox</h3>
+                <button></button>
+            </div>
+        </div>
+        <h2>Conversation view</h2>
+        <div class="sorting_container">
+            <label class="input_container" for="toTop">
+                <input type="radio" name="view" id="toTop" checked="checked">
+                <span></span>
+                Newest on top
+            </label>
+            <label class="input_container" for="tobottom">
+                <input type="radio" name="view" id="tobottom">
+                <span></span>
+                Newest on bottom
+            </label>
+            <label class="input_container" for="off">
+                <input type="radio" name="view" id="off">
+                <span></span>
+                Off
+            </label>
+        </div>
+        <h2>Reading panel</h2>
+        <div class="sorting_container">
+            <label class="input_container" for="showRight">
+                <input type="radio" name="Reading_panal" id="showRight" checked="checked">
+                <span></span>
+                Show on the right
+            </label>
+            <label class="input_container" for="showBottom">
+                <input type="radio" name="Reading_panal" id="showBottom">
+                <span></span>
+                Show on the bottom
+            </label>
+            <label class="input_container" for="Hide">
+                <input type="radio" name="Reading_panal" id="Hide">
+                <span></span>
+                Hide
+            </label>
+        </div>
+        
+        <a href="#">View all settings</a>
+    </main>
 </body>
 </html>
