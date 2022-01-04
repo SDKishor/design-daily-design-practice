@@ -49,9 +49,10 @@ main {
 
 .card h2 {
   font-size: 24px;
+  margin-bottom: 5px;
 }
 .card h4 {
-  margin-top: 10px;
+  margin: 10px 0px;
   font-size: 16px;
   font-weight: 300;
 }
@@ -79,5 +80,16 @@ main {
 }
 
 .one {
-  background-color: #3f3f6d6b;
+  background-image: url(./1.Settings_\(31-dec-21-by-UIDesignDaily\)/day_1520.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  justify-content: space-between;
+}
+.two {
+  background-image: url(./2.Login_\(30-dec-21-UIDesignDaily\)/day_1519.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  justify-content: space-between;
 }
