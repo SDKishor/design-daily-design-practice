@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Subscriptions</title>
+</head>
+<body>
+    <main>
+        <h1>Choose a trial plan</h1>
+        <form >
+            <div class="plan">
+                <label for="Standard">
+                    <input type="radio" name="plan" id="Standard">
+                    <div class="circle"></div>
+                    
+                    <div class="content">
+                        <h2>Standard</h2>
+                        <p>5 TB of space with easy-to-use tram management and collaboration tools.</p>
+                    </div>
+                    
+                </label>
+            </div>
+            <div class="plan">
+                <label for="Advanced">
+                    <input type="radio" name="plan" checked id="Advanced">
+                    <div class="circle"></div>
+                    
+                    <div class="content">
+                        <h2>Advanced</h2>
+                        <p>5 TB of space with easy-to-use tram management and collaboration tools.</p>
+                    </div>
+                </label>
+            </div>
+            
+
+            <label for="terms" class="terms">
+                <input type="checkbox"  id="terms">
+                <p>
+                    I agree to the <a href="#">Agreement and terms</a>. Find out more about how we use and protect your data in our <a href="#">privacy policy</a> .
+                </p>
+            </label>
+            <label for="getmails" class="terms">
+                <input type="checkbox" id="getmails">
+                <p>
+                    I'd like to receive direct marketing email updates.
+                </p>
+            </label>
+
+            <button>Start free trial</button>
+
+            <p class="small">no credit card needed</p>
+        </form>
+        
+    </main>
+</body>
+</html>

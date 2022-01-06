@@ -101,3 +101,11 @@ main {
   background-position: center;
   justify-content: space-between;
 }
+
+.four {
+  background-image: url(./4.SelectPlan_\(05-jan-22-UIDesignDaily\)/day_1523.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  justify-content: space-between;
+}
